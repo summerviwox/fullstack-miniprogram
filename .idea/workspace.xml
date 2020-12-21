@@ -27,25 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="702b73ca-dbc1-4131-9446-c6e860531ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/fullstack-miniprogram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tab-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tab-bar/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tab-bar/index.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom-tab-bar/index.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mine1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mine2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/second1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/second2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/second/second.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/second/second.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/second/second.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/second/second.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +57,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fullstack-web" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -123,5 +105,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607657862522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1607657862522" />
   </component>
 </project>

@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/main/main",
+    "pages/index/index",
+    "pages/home/home",
     "pages/second/second",
     "pages/mine/mine"
   ],
@@ -11,22 +13,5 @@
     "navigationBarTextStyle": "white"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "tabBar": {
-    "custom": true,
-    "color": "#000000",
-    "selectedColor": "#000000",
-    "backgroundColor": "#000000",
-    "list": [
-      {
-        "pagePath": "pages/main/main"
-      },
-      {
-        "pagePath": "pages/second/second"
-      },
-      {
-        "pagePath": "pages/mine/mine"
-      }
-    ]
-  }
+  "sitemapLocation": "sitemap.json"
 }

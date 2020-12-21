@@ -5,8 +5,15 @@ Page({
      * 页面的初始数据
      */
     data: {
+        position:0,
         nbFrontColor: '#000000',
         nbBackgroundColor: '#ffffff',
+    },
+
+    onTabSelect:function(e){
+        this.setData({
+            position:e.detail.position
+        })
     },
 
     tabChange(e) {
@@ -30,13 +37,7 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-        console.error(typeof this.getTabBar ==='function')
-        if(typeof this.getTabBar ==='function'){
-            let index = getApp().globalData.currentTab 
-            this.getTabBar().setData({
-                selected : index
-            })
-        }
+  
     },
 
     /**

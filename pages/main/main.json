@@ -1,5 +1,8 @@
 {
   "usingComponents": {
-    
+    "bottomview":"/components/tabbar",
+    "home":"/components/home/home",
+    "second":"/components/second/second",
+    "mine":"/components/mine/mine"
   }
 }
