@@ -1,1 +1,37 @@
-/* components/second/second.wxss */
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.root .items {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.root .item {
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.root .view {
+  height: 100rpx;
+  flex: 1;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  padding: 30rpx 0px;
+}
+.root .view .image {
+  margin: 0px 10px;
+  width: 15px;
+  height: 15px;
+}
+.root .line {
+  height: 1px;
+  background: #CCCCCC;
+}
+.root .subview {
+  margin-left: 40px;
+}

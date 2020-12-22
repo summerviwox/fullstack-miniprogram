@@ -20,6 +20,6 @@
     justify-content: center;
 }
 .tabbar-image{
-    height: 50rpx;
+    height: auto;
     width: 50rpx;
 }
