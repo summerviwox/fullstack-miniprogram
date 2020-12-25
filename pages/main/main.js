@@ -5,8 +5,8 @@ Page({
         nbFrontColor: '#000000',
         nbBackgroundColor: '#ffffff',
         titles:[
-            {title:"主页",index:1},
-            {title:"附页",index:0},
+            {title:"主页",index:0},
+            {title:"附页",index:1},
             {title:"个人中心",index:2},
         ]
     },

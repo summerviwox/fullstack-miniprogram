@@ -1,21 +1,6 @@
 <view class="root">
-    <view class="items">
-        <view wx:for="{{node}}" wx:key="id" class="item">
-            <view class="view" bindtap="getApi" data-id="{{item.id}}">
-                <image wx:if="{{!item.open}}" src="/images/down.png" class="image" mode="aspectFit"></image>
-                <image wx:else src="/images/up.png" class="image" mode="aspectFit"></image>
-                <view>{{item.title}}</view>
-            </view>
-            <view class="line"></view>
-            <view class="subitems" wx:if="{{item.open}}">
-                <view class="item" wx:for="{{item.node}}" wx:for-item="subitem">
-                        <view class="view subview">
-                            {{subitem.title}}
-                        </view>
-                    <view class="line"></view>
-                </view>
-            </view>
-        </view>
-    </view>
+<view class="node">
+    <node wx:for="{{node}}" wx:key="id" node="{{item}}"></node>
+</view>
 </view>
 

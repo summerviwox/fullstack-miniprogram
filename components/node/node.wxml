@@ -1,0 +1,17 @@
+<view class="root">
+    <view hover-class="selected" class="view" data-node="{{node}}" bindtap="onTap" style="padding-left: {{(node.level)*20+'px'}}">
+        <image  wx:if="{{node.node==undefined||node.node.length==0}}" mode="aspectFit"  class="image" ></image>
+       <view wx:else>
+           <image wx:if="{{node.open}}" mode="aspectFit" src="/images/down.png" class="image" ></image>
+           <image wx:else mode="aspectFit" src="/images/right.png" class="image" ></image>
+       </view>
+        <view class="text">
+            <view class="title" >{{node.title}}</view>
+            <view class="preview" bindtap="gotopreview">{{node.preview}}</view>
+        </view>
+    </view>
+    <view class="line" ></view>
+    <view class="subitem" wx:if="{{node.open}}">
+        <node wx:for="{{node.node}}" wx:key="id" node="{{item}}"></node>
+    </view>
+</view>

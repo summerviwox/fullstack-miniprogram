@@ -1,6 +1,5 @@
 {
   "component": true,
   "usingComponents": {
-    "node": "/components/node/node"
   }
 }

@@ -7,9 +7,9 @@
 </page-meta>
 <view class="root">
   <view class="midcontainer">
-    <home wx:if="{{position==titles[0].index}}"></home>
-    <second wx:if="{{position==titles[1].index}}"></second>
-    <mine wx:if="{{position==titles[2].index}}"></mine>
+    <second class="root" style="display: {{position==titles[1].index?'flex':'none'}}"></second>
+      <home class="root" style="display: {{position==titles[0].index?'flex':'none'}}"></home>
+      <mine class="root" style="display: {{position==titles[2].index?'flex':'none'}}"></mine>
   </view>
   <bottomview class="bottomview" bindonTabSelect="onTabSelect"></bottomview>
 </view>
