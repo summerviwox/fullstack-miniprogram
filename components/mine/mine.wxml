@@ -1,2 +1,10 @@
-<!--components/mine/mine.wxml-->
-<text>components/mine/mine.wxml</text>
+<view class="root">
+    <view class="top mainbg">
+        <image class="image" mode="aspectFit" src="{{head}}"></image>
+        <view class="texts">
+            <view class="text">204</view>
+            <view class="text">244</view>
+            <view class="text">214</view>
+        </view>
+    </view>
+</view>

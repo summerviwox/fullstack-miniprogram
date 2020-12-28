@@ -12,7 +12,11 @@ Component({
         }
     },
     methods: {
-
+        run(){
+            wx.navigateTo({
+                url:"/instance/map/map"
+            })
+        }
     },
     lifetimes:{
         attached() {

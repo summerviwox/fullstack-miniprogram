@@ -6,6 +6,5 @@
     />
 </page-meta>
 <view class="root">
-<rich-text class="richtext" nodes="{{node.html}}"></rich-text>
-    <image src="/images/run.png" class="image" bindtap="run"></image>
+    <map class="map" longitude="{{localtion.longitude}}" latitude="{{localtion.latitude}}"></map>
 </view>
