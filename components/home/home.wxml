@@ -1,2 +1,4 @@
-<!--components/home/home.wxml-->
-<text>components/home/home.wxml</text>
+<view class="container root">
+
+    <articleText wx:for="{{[1,1,1,1,1,1,1,1]}}" class="item"></articleText>
+</view>

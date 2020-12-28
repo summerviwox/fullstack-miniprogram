@@ -1,0 +1,34 @@
+@import "../../global/global.wxss";
+.root{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8rpx;
+  background: white;
+  padding: 20rpx;
+  .top{
+    display: flex;
+  }
+  .preview{
+    margin-top: 10rpx;
+  }
+  .time{
+  }
+  .images{
+    margin-top: 10rpx;
+    display: flex;
+    .image{
+      flex: 1;
+      width: 0px;
+      height: calc(20vw - 10rpx);
+    }
+    .leftimage{
+      padding: 10rpx 10rpx 0 0rpx;
+    }
+    .midimage{
+      padding: 10rpx 5rpx 0 5rpx;
+    }
+    .rightimage{
+      padding: 10rpx 10rpx 0 5rpx;
+    }
+  }
+}

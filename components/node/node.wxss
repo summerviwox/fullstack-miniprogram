@@ -10,9 +10,10 @@
 .view {
   display: flex;
   flex-direction: row;
+  padding-bottom: 20rpx;
 }
 .view .image {
-  margin-top: 45rpx;
+  margin-top: 35rpx;
   width: 10rpx;
   height: 10rpx;
 }
@@ -26,19 +27,20 @@
   flex-direction: column;
 }
 .view .text .title {
-  color: #333333;
+  color: black;
   width: 100%;
   overflow: hidden;
-  height: 100rpx;
-  line-height: 100rpx;
   vertical-align: center;
+  line-height: 40rpx;
+  margin-top: 20rpx;
 }
 .view .text .preview {
+  margin-top: 10rpx;
   vertical-align: top;
-  color: darkgrey;
-  font-size: 20rpx;
+  color: #707070;
+  font-size: 25rpx;
   width: 100%;
-  line-height: 60rpx;
+  line-height: 40rpx;
   overflow: hidden;
   text-overflow: clip;
 }

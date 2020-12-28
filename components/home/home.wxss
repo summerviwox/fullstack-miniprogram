@@ -1,1 +1,7 @@
-/* components/home/home.wxss */
+.root {
+  background: #EEEEEE;
+  overflow-y: auto;
+}
+.root .item {
+  margin: 20rpx 20rpx 20rpx 20rpx;
+}

@@ -1,0 +1,16 @@
+<view class="root">
+    <view class="top">
+        <view class="title1">{{node.title}}</view>
+        <view style="flex: 1;width: 0px"></view>
+        <view class="time title2">{{node.time}}</view>
+    </view>
+    <view class="preview body">
+        {{node.preview}}
+    </view>
+
+    <view class="images">
+        <image mode="aspectFit" class="image leftimage" src="{{node.images[0]}}"></image>
+        <image mode="aspectFit" class="image midimage" src="{{node.images[1]}}"></image>
+        <image mode="aspectFit" class="image rightimage" src="{{node.images[2]}}"></image>
+    </view>
+</view>
